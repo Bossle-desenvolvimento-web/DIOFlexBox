@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{height:600px;
+                   max-width: 300px;
+                   margin: 0 auto;
+                   display: flex;
+                   flex-wrap: wrap;
+                   border: solid 2px black;}
+
+         .item{background-color: yellow;
+               padding: 0 5px;
+               margin: 5px;
+               flex: 1;
+               text-align: center;}  
+               
+        .stretch{align-content: stretch;}  
+        
+        .center{align-content: center;}
+
+        .flex-start{align-content: flex-start;}
+    </style>
+    <title>aligncontent</title>
+</head>
+<body>
+    <div class="container stretch">
+        <div class="item">ddfffffffffffffffffffffffffffffffffff</div>
+        <div class="item">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        <div class="item">cccccccccccccccccccccccccccccccc</div>
+        <div class="item">ttttttttttttttttttttttttttttttt</div>
+        <div class="item">wwwwwwwwwwwwwwwwwwww</div>
+        <div class="item">qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</div>
+        <div class="item">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</div>
+    </div>
+    <div class="container center">
+        <div class="item">ddfffffffffffffffffffffffffffffffffff</div>
+        <div class="item">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        <div class="item">cccccccccccccccccccccccccccccccc</div>
+        <div class="item">ttttttttttttttttttttttttttttttt</div>
+        <div class="item">wwwwwwwwwwwwwwwwwwww</div>
+        <div class="item">qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</div>
+        <div class="item">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</div>
+    </div>
+
+    <div class="container flex-start">
+        <div class="item">ddfffffffffffffffffffffffffffffffffff</div>
+        <div class="item">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        <div class="item">cccccccccccccccccccccccccccccccc</div>
+        <div class="item">ttttttttttttttttttttttttttttttt</div>
+        <div class="item">wwwwwwwwwwwwwwwwwwww</div>
+        <div class="item">qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</div>
+        <div class="item">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</div>
+    </div>
+
+
+</body>
+</html>
